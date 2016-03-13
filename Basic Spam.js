@@ -12,7 +12,7 @@ function spam(){
     var input = document.getElementsByClassName("icon btn-icon icon-send"); //Grabs the send button
     input[0].click(); // Clicks the send button
     contador++;
-    setTimeout(spam,1); // Add delay to the recursive function, otherwise it won't work
+    setTimeout(spam,0.5); // Add delay to the recursive function, otherwise it won't work, can change it if you want though :) 
   }
 }
 spam();
