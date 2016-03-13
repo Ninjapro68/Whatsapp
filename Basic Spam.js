@@ -8,7 +8,7 @@ function dispatch(target, eventType, char) {
 }
 function spam(){
   if (contador<100){   // How many times spam will exexcute
-    dispatch(campo, "textInput", "You are being spammed by JS"); // Msg to be texted 
+    dispatch(campo, "textInput", "You are being spammed by Ninjapro68's bot :), How mad are you?"); // Msg to be texted 
     var input = document.getElementsByClassName("icon btn-icon icon-send"); //Grabs the send button
     input[0].click(); // Clicks the send button
     contador++;
