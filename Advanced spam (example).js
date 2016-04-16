@@ -20,7 +20,7 @@ function spam(){
     var input = document.getElementsByClassName("icon btn-icon icon-send");//Grabs the send button
     input[0].click();// Clicks the send button
     contador1++;
-    setTimeout(spam,1);
+    setTimeout(spam,1); // you can change the limit here but dont change it a lot
   }
   else { 
     dispatch(campo, "textInput", "Enough poop for today"); // Msg when the loop finish
